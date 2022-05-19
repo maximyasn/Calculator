@@ -9,6 +9,7 @@ class Program {
         Scanner sc = new Scanner(file);
         String s = sc.nextLine();
         String[] str = s.split(" ");
+        sc.close();
         long a;
         long b;
         try {
